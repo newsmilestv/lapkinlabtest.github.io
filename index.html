@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="Ru">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta name="description" content="">
+ <meta name="keywords" content="">
+  <!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+  <title>Lapkin Lab Test Site</title>
+  <link rel="stylesheet" href="css/main.min.css">
+ </head>
+
+<body>
+  <section id="feedback"></section>
+  <section id="main-feedback">
+    <i id="close">×</i>
+    <h2>Обратная связь</h2>
+    <form class="" action="index.html" method="post">
+    <p class="name-input">Ваше имя*</p>
+    <input name="user" type="text" class="all" required>
+
+    <p class="name-input">Телефон*</p>
+    <input type="tel" name="tel" class="all" required>
+
+    <p class="name-input">Email*</p>
+    <input type="email" name="email" class="all" required>
+
+    <p class="name-input">Сообщение*</p>
+    <textarea name="message"></textarea>
+
+    <input type="submit" value="отправить">
+
+    </form>
+  </section>
+<header>
+  <section id="header-top">
+    <div class="container">
+
+      <section class="name-company clearfix">
+        <div class="square left"></div>
+        <p class="name-bold">Название<br>компании</p>
+        <p class="cool">самая клёвая компания</p>
+      </section>
+
+      <section class="phone right">
+        <p class="tel">+7(499) 777-77-77<br>+7(499) 777-77-77</p>
+        <div class="click-me flex">
+        <p class="feedback-click" id="show">Обратная связь</p>
+        </div>
+      </section>
+
+    </div>
+  </section>
+
+  <nav>
+    <div class="container">
+      <ul class="flex">
+        <li><a href="#">Главная</a></li>
+        <li><a href="#">Каталог</a></li>
+        <li><a href="#">Доставка и оплата</a></li>
+        <li><a href="#">Прайс-лист</a></li>
+        <li><a href="#">Контакты</a></li>
+      </ul>
+    </div>
+  </nav>
+
+<section id="slider">
+    <div class="w3-content" style="max-width: 100%">
+      <img class="mySlides" src="img/slide-1.jpg" style="width:100%">
+      <img class="mySlides" src="img/slide-2.jpg" style="width:100%">
+      <div class="w3-center container">
+        <div class="w3-section">
+          <button class="w3-button w3-light-grey slide-prev" onclick="plusDivs(-1)">❮</button>
+          <button class="w3-button w3-light-grey slide-next" onclick="plusDivs(1)">❯</button>
+        </div>
+        <div class="crumbs none">
+        <p class="w3-button demo" onclick="currentDiv(1)">1</p>
+        <p class="w3-button demo" onclick="currentDiv(2)">2</p>
+        <p class="w3-button demo" onclick="currentDiv(3)">3</p>
+        </div>
+      </div>
+    </div>
+</section>
+</header>
+
+<main>
+  <section id="content">
+    <div class="container">
+      <ul class="main flex">
+        <li><a href="#">Главная</a><i class="one">/</i></li>
+        <li><a href="#">Каталог</a><i class="two">/</i></li>
+        <li><a href="#">Бытовая техника</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="main-content">
+    <div class="container">
+      <div class="main-catalog flex">
+        <div class="left-catalog">
+
+          <div class="item-catalog">
+             <label for="car">Автомобили</label>
+             <input id="car" class="none" type="checkbox">
+             <ul class="overflow">
+               <li><a href="#">Бмв</a></li>
+               <li><a href="#">Мерседес</a></li>
+               <li><a href="#">Ауди</a></li>
+               <li><a href="#">Жигули</a></li>
+             </ul>
+          </div>
+
+          <div class="item-catalog">
+             <label for="teapot">Бытовая техника</label>
+             <input id="teapot" class="none" type="checkbox">
+             <ul class="overflow">
+               <li><a href="#">Микроволновки</a></li>
+               <li><a href="#">Холодильники</a></li>
+               <li><a href="#">Посудомоечные машины</a></li>
+               <li><a href="#">Чайники</a></li>
+             </ul>
+          </div>
+
+          <div class="item-catalog">
+             <label for="mobile">Мобильная техника</label>
+             <input id="mobile" class="none" type="checkbox">
+             <ul class="overflow">
+               <li><a href="#">Микроволновки</a></li>
+               <li><a href="#">Холодильники</a></li>
+               <li><a href="#">Посудомоечные машины</a></li>
+               <li><a href="#">Чайники</a></li>
+             </ul>
+          </div>
+
+          <div class="item-catalog">
+             <label for="comp">Компьютеры</label>
+             <input id="comp" class="none" type="checkbox">
+             <ul class="overflow">
+               <li><a href="#">Микроволновки</a></li>
+               <li><a href="#">Холодильники</a></li>
+               <li><a href="#">Посудомоечные машины</a></li>
+               <li><a href="#">Чайники</a></li>
+             </ul>
+          </div>
+
+          <div class="item-catalog">
+             <label for="clothes">Одежда</label>
+             <input id="clothes" class="none" type="checkbox">
+             <ul class="overflow">
+               <li><a href="#">Микроволновки</a></li>
+               <li><a href="#">Холодильники</a></li>
+               <li><a href="#">Посудомоечные машины</a></li>
+               <li><a href="#">Чайники</a></li>
+             </ul>
+          </div>
+
+          <div class="item-catalog">
+             <label for="estate">Недвижимость</label>
+             <input id="estate" class="none" type="checkbox">
+             <ul class="overflow">
+               <li><a href="#">Микроволновки</a></li>
+               <li><a href="#">Холодильники</a></li>
+               <li><a href="#">Посудомоечные машины</a></li>
+               <li><a href="#">Чайники</a></li>
+             </ul>
+          </div>
+
+          <div class="price">
+            <a href="#" class="price-img" alt="image"></a>
+            <p>Прайс лист</p>
+          </div>
+
+        </div>
+
+        <div class="right-catalog flex wrap">
+
+          <div class="products">
+            <div class="image-wrapp overflow">
+              <img src="img/products-img.jpg" alt="image">
+            </div>
+            <p class="descr-prod">Самый клёвый чайник,<br>который надо купить!</p>
+            <div class="money clearfix">
+              <p>1 900 р.</p>
+              <i class="right"></i>
+            </div>
+          </div>
+
+          <div class="products">
+            <div class="image-wrapp overflow">
+              <img src="img/products-img.jpg" alt="image">
+            </div>
+            <p class="descr-prod">Самый клёвый чайник,<br>который надо купить!</p>
+            <div class="money clearfix">
+              <p>1 900 р.</p>
+              <i class="right"></i>
+            </div>
+          </div>
+
+          <div class="products">
+            <div class="image-wrapp overflow">
+              <img src="img/products-img.jpg" alt="image">
+            </div>
+            <p class="descr-prod">Самый клёвый чайник,<br>который надо купить!</p>
+            <div class="money clearfix">
+              <p>1 900 р.</p>
+              <i class="right"></i>
+            </div>
+          </div>
+
+          <div class="products">
+            <div class="image-wrapp overflow">
+              <img src="img/products-img.jpg" alt="image">
+            </div>
+            <p class="descr-prod">Самый клёвый чайник,<br>который надо купить!</p>
+            <div class="money clearfix">
+              <p>1 900 р.</p>
+              <i class="right"></i>
+            </div>
+          </div>
+
+          <div class="products">
+            <div class="image-wrapp overflow">
+              <img src="img/products-img.jpg" alt="image">
+            </div>
+            <p class="descr-prod">Самый клёвый чайник,<br>который надо купить!</p>
+            <div class="money clearfix">
+              <p>1 900 р.</p>
+              <i class="right"></i>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="numbers">
+        <div class="wrapp-numb flex">
+        <p>1</p>
+        <p>2</p>
+        <p>3</p>
+        <p>4</p>
+        <p>5</p>
+        <p>6</p>
+        <p>7</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="text">
+    <div class="container">
+      <div class="text-div">
+        <div class="div-text-left">
+          <p>Компания «Компания» существует более 6 лет, за это время мы принимали участие в разработке более чем 700 сайтов, поэтому можем уверенно называть себя профессионалами. На данный момент наш коллектив состоит из более чем 30 сотрудников работающих в двух офисах в Москве и Зеленограде.характерные для этого жанра мотивы: неразделённой любви, ухода молодости, угасания души.</p>
+        </div>
+
+        <div class="div-text-right right">
+          <p>Одним из основных направлений работ нашей компании является поисковое продвижение сайтов, на данной момент мы работаем с более чем 150 постоянными клиентами по более чем 11 000 поисковым запросам. При этом в работе основной акцент мы делаем на качестве работ, а так же применяем собственные уникальные разработки в области SEO продвижения. На данный момент отдел SEO состоит из 9 человек под руководством ведущего специалиста, преимущественно работающих в нашем московском офисе.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container">
+    <div class="main-footer flex">
+      <div class="copyright">
+        <p>© 2012–2013 ЗАО «Компания»<br>info@name.ru</p>
+      </div>
+      <div class="footer-links">
+        <ul class="links">
+          <li><a href="#">Главная</a></li>
+          <li><a href="#">Каталог</a></li>
+          <li><a href="#">Доставка и оплата</a></li>
+          <li><a href="#">Прайс-лист</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+      </div>
+      <div class="company">
+        <p><u>Разработка сайта</u> — <br>компания «Компания»</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/libs.min.js"></script>
+</body>
+</html>
